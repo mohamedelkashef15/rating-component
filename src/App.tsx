@@ -29,7 +29,7 @@ function Rating({ selectedRating, onSubmit, setSelectedRating }: IRatings) {
   const numbers = [1, 2, 3, 4, 5];
   return (
     <section id="rating">
-      <img src="images/icon-star.svg" className="icon" />
+      <img src="images/icon-star.svg" className="icon" alt="icon-star" />
       <h1>How did we do?</h1>
       <p>
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our
@@ -58,7 +58,7 @@ function Rating({ selectedRating, onSubmit, setSelectedRating }: IRatings) {
 function ThankYou({ selectedRating }: { selectedRating: number | null }) {
   return (
     <section id="thank-you" className="thank-you">
-      <img src="images/illustration-thank-you.svg"></img>
+      <img src="images/illustration-thank-you.svg" alt="illustration" />
       <p className="message">You selected {selectedRating} out of 5</p>
       <h2>Thank You</h2>
       <p>
