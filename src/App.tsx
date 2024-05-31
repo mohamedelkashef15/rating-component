@@ -1,12 +1,5 @@
 import { useState } from "react";
 
-/*
-  onClick on Specific number (span) 
-    1- the style selected will be applied 
-    2- value of selectedRating will be the number of selected span
-  
-*/
-
 interface IRatings {
   selectedRating: number | null;
   onSubmit: () => void;
