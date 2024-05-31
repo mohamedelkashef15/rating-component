@@ -22,11 +22,12 @@ body {
   background: $very-dark-blue;
 }
 
-#rating {
+#rating,
+#thank-you {
   background: $dark-blue;
   padding: 2.2rem;
   width: 400px;
-  border-radius: 10px;
+  border-radius: 20px;
   h1,
   h2 {
     color: #fff;
@@ -51,7 +52,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 30px 0;
-    span {
+    .number {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -93,10 +94,18 @@ body {
   }
 }
 
-.hidden {
-  display: none;
-}
-
-.thank-you {
+#thank-you {
   text-align: center;
+  img {
+    display: block;
+    margin: auto;
+  }
+  .message {
+    padding: 5px 20px;
+    background-color: hsl(215, 20%, 24%);
+    color: $orange;
+    display: inline-block;
+    margin: 20px auto 0;
+    border-radius: 25px;
+  }
 }
